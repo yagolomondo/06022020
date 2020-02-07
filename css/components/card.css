@@ -1,0 +1,58 @@
+.card {
+  border-radius: 4px;
+}
+
+.full-card {
+  background-color: white;
+  height: 440px;
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px 12px;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.full-card > img {
+  width: 100%;
+}
+
+.oil-card {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.oil-card > img {
+  width: 50%;
+}
+
+.info-card {
+  width: 200px;
+  height: 200px;
+}
+
+.info-card h2 {
+  font-size: 16px;
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+.info-card p {
+  font-size: 16px;
+  margin: 0;
+  margin-bottom: 12px;
+}
+
+.picture-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.picture-card img {
+  margin-top: 12px;
+  width: 124px;
+  height: 66px;
+}

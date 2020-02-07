@@ -1,0 +1,45 @@
+@import url("components/container.css");
+@import url("components/button.css");
+@import url("components/card.css");
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: rgb(91, 76, 167);
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  border-radius: 4px;
+}
+
+ul {
+  margin-top: 0px;
+  margin-bottom: 12px;
+  padding: 0;
+}
+
+ul > li {
+  display: inline-block;
+  text-decoration: none;
+  padding: 4px;
+}
+
+.star {
+  font-size: 20px;
+  color: gold;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.fa-heart {
+  position: relative;
+  left: -192;
+  bottom: 178;
+  font-size: 20px;
+  color: red;
+}
